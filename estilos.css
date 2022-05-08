@@ -376,8 +376,7 @@ footer a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 5px;
-    width: 100%;
+    gap: 5px;    
     height: 100%;
     color: #000;
     justify-content: center;
@@ -606,29 +605,29 @@ footer a {
 /*Reservaciones*/
 .reservaciones {
     background-image: url(img/flamenco1.svg);
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     display: flex;
     flex-direction: row;
     align-content: center;
+    justify-content: center;
     border: 2px solid red;
     padding: 10px;
-    margin: 10px;
+    margin: 10px;   
 }
 
 .formContainer {
     background-color: goldenrod;
-    width: 100%;
-    box-shadow: 5px 5px 7px 0px #333;
-    margin: 70px;
+    width: 70%;
+    box-shadow: 5px 5px 7px 0px #333;    
     color: white;
     padding: 20px;
+    align-items: center;
 }
 
 .formContainer__title {
     color: beige;
     font-size: 14px;
-
 }
 
 .form {

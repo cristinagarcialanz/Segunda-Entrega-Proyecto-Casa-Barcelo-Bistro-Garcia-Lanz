@@ -74,7 +74,6 @@
         <!-- Fin Barra de Navegación -->
     </header>
 
-
     <main>
         <section class="reservaciones row">
             <section class="formContainer">
@@ -115,11 +114,11 @@
                             <label class="form__label" for="Numero">Número de Personas</label>
                             <input class="form__input" type="number" placeholder="N° de Personas" required>
                         </div>
-                        <div>
 
+                        <div>
                             <div class="dropdown">
-                                <button class="btn btn-secondary btn-warning dropdown-toggle" type="button" id="dropdownMenu2"
-                                    data-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-secondary btn-warning dropdown-toggle" type="button"
+                                    id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
                                     En que area prefieres?
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -129,28 +128,19 @@
                                 </div>
                             </div>
 
+                            <div>
+                                <label class="form__label" for="comentario">Comentarios</label>
+                                <textarea class="form__texarea" name="text" id="" cols="30" rows="5"
+                                    placeholder="Déjanos un mensaje"></textarea>
+                                <input class="form__input form__input--submit" type="submit" value="Enviar">
+                                <input class="form__input form__input--submit" type="reset" value="Borrar">
+                            </div>
+                        </div>
 
-                            
+                        <div>
+                            <button type="button" class="btn btn-warning">Acepto los terminos</button>
+                        </div>
 
-
-
-
-
-                                    <div>
-                                        <label class="form__label" for="comentario">Comentarios</label>
-                                        <textarea class="form__texarea" name="text" id="" cols="30" rows="5"
-                                            placeholder="Déjanos un mensaje"></textarea>
-                                    </div>
-
-                                    <div>
-                                        <input class="form__input form__input--submit" type="submit" value="Enviar">
-                                        <input class="form__input form__input--submit" type="reset" value="Borrar">
-                                        <input class="form__input form__input--submit" type="button" value="Botón">
-                                    </div>
-
-                                    <div><button type="button" class="btn btn-warning">Acepto los terminos</button>
-                                    </div>
-                                    <br>
                     </fieldset>
                 </form>
             </section>
